@@ -39,7 +39,7 @@ body {
 
 .timeline {
   position: relative;
-  width: 60%;
+  width: 57%;
   max-width: 1140px;
   margin: 0 auto;
   padding: 15px 0;
@@ -177,10 +177,8 @@ body {
 @media (max-width: 767.98px) {
 
     .timeline {
-        width: 90%;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
+    width: 100%;
+  }
 
   .timeline::after {
     left: 90px;
@@ -192,7 +190,7 @@ body {
     padding-right: 30px;
   }
 
-  .container.right {
+  .container.right, .container.left {
     left: 0%;
   }
 
@@ -204,7 +202,7 @@ body {
   .container.left::before,
   .container.right::before {
     left: 100px;
-    border-color: transparent var(--color-golden-yellow); transparent transparent;
+    border-color: transparent var(--color-golden-yellow); 
   }
 
   .container.left .date,
