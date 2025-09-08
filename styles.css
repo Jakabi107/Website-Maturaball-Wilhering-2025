@@ -176,18 +176,18 @@ body {
 
 @media (max-width: 767.98px) {
 
-    .timeline {
+  .timeline {
     width: 100%;
-    }
+  }
 
   .timeline::after {
-    left: 90px;
+    left: 30px;
   }
 
   .container {
     width: 100%;
-    padding-left: 120px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
   }
 
   .container.right, .container.left {
@@ -196,30 +196,30 @@ body {
 
   .container.left::after, 
   .container.right::after {
-    left: 82px;
+    left: 22px;
   }
 
   .container.left::before,
   .container.right::before {
-    left: 100px;
+    left: 40px;
     border-color: transparent var(--color-golden-yellow); 
   }
 
   .container.left .date,
   .container.right .date {
     right: auto;
-    left: 15px;
+    left: 10px;
   }
 
   .container.left .icon,
   .container.right .icon {
     right: auto;
-    left: 146px;
+    left: 50px;
   }
 
   .container.left .content,
   .container.right .content {
-    padding: 30px 30px 30px 90px;
-    border-radius: 500px 500px 500px 500px;
+    padding: 20px 20px 20px 60px;
+    border-radius: 30px;
   }
 }
